@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE8E5C032AB4E95700F0D13F /* Red_DeadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E5C022AB4E95700F0D13F /* Red_DeadApp.swift */; };
+		CE8E5C052AB4E95700F0D13F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E5C042AB4E95700F0D13F /* ContentView.swift */; };
+		CE8E5C072AB4E95800F0D13F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8E5C062AB4E95800F0D13F /* Assets.xcassets */; };
+		CE8E5C0A2AB4E95800F0D13F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8E5C092AB4E95800F0D13F /* Preview Assets.xcassets */; };
+		CE8E5C142AB4E95800F0D13F /* Red_DeadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E5C132AB4E95800F0D13F /* Red_DeadTests.swift */; };
+		CE8E5C1E2AB4E95800F0D13F /* Red_DeadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E5C1D2AB4E95800F0D13F /* Red_DeadUITests.swift */; };
+		CE8E5C202AB4E95800F0D13F /* Red_DeadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E5C1F2AB4E95800F0D13F /* Red_DeadUITestsLaunchTests.swift */; };
+		CE8E5C2D2AB4E9A400F0D13F /* Texts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E5C2C2AB4E9A400F0D13F /* Texts.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE8E5C102AB4E95800F0D13F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8E5BF72AB4E95700F0D13F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE8E5BFE2AB4E95700F0D13F;
+			remoteInfo = "Red Dead";
+		};
+		CE8E5C1A2AB4E95800F0D13F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8E5BF72AB4E95700F0D13F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE8E5BFE2AB4E95700F0D13F;
+			remoteInfo = "Red Dead";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE8E5BFF2AB4E95700F0D13F /* Red Dead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Red Dead.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8E5C022AB4E95700F0D13F /* Red_DeadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Red_DeadApp.swift; sourceTree = "<group>"; };
+		CE8E5C042AB4E95700F0D13F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE8E5C062AB4E95800F0D13F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE8E5C092AB4E95800F0D13F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE8E5C0F2AB4E95800F0D13F /* Red DeadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Red DeadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8E5C132AB4E95800F0D13F /* Red_DeadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Red_DeadTests.swift; sourceTree = "<group>"; };
+		CE8E5C192AB4E95800F0D13F /* Red DeadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Red DeadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8E5C1D2AB4E95800F0D13F /* Red_DeadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Red_DeadUITests.swift; sourceTree = "<group>"; };
+		CE8E5C1F2AB4E95800F0D13F /* Red_DeadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Red_DeadUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE8E5C2C2AB4E9A400F0D13F /* Texts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Texts.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE8E5BFC2AB4E95700F0D13F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8E5C0C2AB4E95800F0D13F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8E5C162AB4E95800F0D13F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE8E5BF62AB4E95700F0D13F = {
+			isa = PBXGroup;
+			children = (
+				CE8E5C012AB4E95700F0D13F /* Red Dead */,
+				CE8E5C122AB4E95800F0D13F /* Red DeadTests */,
+				CE8E5C1C2AB4E95800F0D13F /* Red DeadUITests */,
+				CE8E5C002AB4E95700F0D13F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE8E5C002AB4E95700F0D13F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E5BFF2AB4E95700F0D13F /* Red Dead.app */,
+				CE8E5C0F2AB4E95800F0D13F /* Red DeadTests.xctest */,
+				CE8E5C192AB4E95800F0D13F /* Red DeadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE8E5C012AB4E95700F0D13F /* Red Dead */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E5C022AB4E95700F0D13F /* Red_DeadApp.swift */,
+				CE8E5C042AB4E95700F0D13F /* ContentView.swift */,
+				CE8E5C2C2AB4E9A400F0D13F /* Texts.swift */,
+				CE8E5C062AB4E95800F0D13F /* Assets.xcassets */,
+				CE8E5C082AB4E95800F0D13F /* Preview Content */,
+			);
+			path = "Red Dead";
+			sourceTree = "<group>";
+		};
+		CE8E5C082AB4E95800F0D13F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E5C092AB4E95800F0D13F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE8E5C122AB4E95800F0D13F /* Red DeadTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E5C132AB4E95800F0D13F /* Red_DeadTests.swift */,
+			);
+			path = "Red DeadTests";
+			sourceTree = "<group>";
+		};
+		CE8E5C1C2AB4E95800F0D13F /* Red DeadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E5C1D2AB4E95800F0D13F /* Red_DeadUITests.swift */,
+				CE8E5C1F2AB4E95800F0D13F /* Red_DeadUITestsLaunchTests.swift */,
+			);
+			path = "Red DeadUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE8E5BFE2AB4E95700F0D13F /* Red Dead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8E5C232AB4E95800F0D13F /* Build configuration list for PBXNativeTarget "Red Dead" */;
+			buildPhases = (
+				CE8E5BFB2AB4E95700F0D13F /* Sources */,
+				CE8E5BFC2AB4E95700F0D13F /* Frameworks */,
+				CE8E5BFD2AB4E95700F0D13F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Red Dead";
+			productName = "Red Dead";
+			productReference = CE8E5BFF2AB4E95700F0D13F /* Red Dead.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE8E5C0E2AB4E95800F0D13F /* Red DeadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8E5C262AB4E95800F0D13F /* Build configuration list for PBXNativeTarget "Red DeadTests" */;
+			buildPhases = (
+				CE8E5C0B2AB4E95800F0D13F /* Sources */,
+				CE8E5C0C2AB4E95800F0D13F /* Frameworks */,
+				CE8E5C0D2AB4E95800F0D13F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE8E5C112AB4E95800F0D13F /* PBXTargetDependency */,
+			);
+			name = "Red DeadTests";
+			productName = "Red DeadTests";
+			productReference = CE8E5C0F2AB4E95800F0D13F /* Red DeadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE8E5C182AB4E95800F0D13F /* Red DeadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8E5C292AB4E95800F0D13F /* Build configuration list for PBXNativeTarget "Red DeadUITests" */;
+			buildPhases = (
+				CE8E5C152AB4E95800F0D13F /* Sources */,
+				CE8E5C162AB4E95800F0D13F /* Frameworks */,
+				CE8E5C172AB4E95800F0D13F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE8E5C1B2AB4E95800F0D13F /* PBXTargetDependency */,
+			);
+			name = "Red DeadUITests";
+			productName = "Red DeadUITests";
+			productReference = CE8E5C192AB4E95800F0D13F /* Red DeadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE8E5BF72AB4E95700F0D13F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CE8E5BFE2AB4E95700F0D13F = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					CE8E5C0E2AB4E95800F0D13F = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = CE8E5BFE2AB4E95700F0D13F;
+					};
+					CE8E5C182AB4E95800F0D13F = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = CE8E5BFE2AB4E95700F0D13F;
+					};
+				};
+			};
+			buildConfigurationList = CE8E5BFA2AB4E95700F0D13F /* Build configuration list for PBXProject "Red Dead" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE8E5BF62AB4E95700F0D13F;
+			productRefGroup = CE8E5C002AB4E95700F0D13F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE8E5BFE2AB4E95700F0D13F /* Red Dead */,
+				CE8E5C0E2AB4E95800F0D13F /* Red DeadTests */,
+				CE8E5C182AB4E95800F0D13F /* Red DeadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE8E5BFD2AB4E95700F0D13F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8E5C0A2AB4E95800F0D13F /* Preview Assets.xcassets in Resources */,
+				CE8E5C072AB4E95800F0D13F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8E5C0D2AB4E95800F0D13F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8E5C172AB4E95800F0D13F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE8E5BFB2AB4E95700F0D13F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8E5C2D2AB4E9A400F0D13F /* Texts.swift in Sources */,
+				CE8E5C052AB4E95700F0D13F /* ContentView.swift in Sources */,
+				CE8E5C032AB4E95700F0D13F /* Red_DeadApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8E5C0B2AB4E95800F0D13F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8E5C142AB4E95800F0D13F /* Red_DeadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8E5C152AB4E95800F0D13F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8E5C202AB4E95800F0D13F /* Red_DeadUITestsLaunchTests.swift in Sources */,
+				CE8E5C1E2AB4E95800F0D13F /* Red_DeadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE8E5C112AB4E95800F0D13F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE8E5BFE2AB4E95700F0D13F /* Red Dead */;
+			targetProxy = CE8E5C102AB4E95800F0D13F /* PBXContainerItemProxy */;
+		};
+		CE8E5C1B2AB4E95800F0D13F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE8E5BFE2AB4E95700F0D13F /* Red Dead */;
+			targetProxy = CE8E5C1A2AB4E95800F0D13F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE8E5C212AB4E95800F0D13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE8E5C222AB4E95800F0D13F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE8E5C242AB4E95800F0D13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Red Dead/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "neo.Red-Dead";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE8E5C252AB4E95800F0D13F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Red Dead/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "neo.Red-Dead";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE8E5C272AB4E95800F0D13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "neo.Red-DeadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Red Dead.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Red Dead";
+			};
+			name = Debug;
+		};
+		CE8E5C282AB4E95800F0D13F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "neo.Red-DeadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Red Dead.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Red Dead";
+			};
+			name = Release;
+		};
+		CE8E5C2A2AB4E95800F0D13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "neo.Red-DeadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Red Dead";
+			};
+			name = Debug;
+		};
+		CE8E5C2B2AB4E95800F0D13F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "neo.Red-DeadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Red Dead";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE8E5BFA2AB4E95700F0D13F /* Build configuration list for PBXProject "Red Dead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8E5C212AB4E95800F0D13F /* Debug */,
+				CE8E5C222AB4E95800F0D13F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8E5C232AB4E95800F0D13F /* Build configuration list for PBXNativeTarget "Red Dead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8E5C242AB4E95800F0D13F /* Debug */,
+				CE8E5C252AB4E95800F0D13F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8E5C262AB4E95800F0D13F /* Build configuration list for PBXNativeTarget "Red DeadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8E5C272AB4E95800F0D13F /* Debug */,
+				CE8E5C282AB4E95800F0D13F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8E5C292AB4E95800F0D13F /* Build configuration list for PBXNativeTarget "Red DeadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8E5C2A2AB4E95800F0D13F /* Debug */,
+				CE8E5C2B2AB4E95800F0D13F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE8E5BF72AB4E95700F0D13F /* Project object */;
+}
